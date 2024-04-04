@@ -1,0 +1,254 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        zoom: 105%;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    body {
+        zoom: 80%;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        zoom: 70%;
+        overflow-x: hidden;
+    }
+}
+
+.top_box {
+    position: relative;
+    background-position-y: -5px;
+    background-position-x: 21px;
+    background-image: url(../img/brand_logo.png);
+    background-size: 108px;
+    background-color: #050245;
+    width: 470px;
+    height: 270px;
+    border-radius: 50px;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.profile img {
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.profile {
+    width: 230px;
+    height: 230px;
+    margin-left: 0;
+    background-color: black;    
+    border-radius: 150px;
+    position: relative;
+    left: 50%;
+    top: -42.5%;
+    transform: translateX(-50%);
+}
+
+.main_box {
+    margin: auto;
+    background-color: #561CE3;
+    width: 470px;
+    height: 270px;
+    border-radius: 50px;
+    position: relative; /* Ensure proper positioning */
+}
+
+.whole_block {
+    transition: transform 75ms ease-in-out;
+    padding-bottom: 25px;
+}
+
+.whole_block::before,
+.whole_block::after {
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+}
+
+.head_name {
+    position: relative;
+    bottom: 42%;
+    left: 25%;
+}
+
+.main_box h3 {
+    font-family: "Akira Expanded";
+    color: aliceblue;
+    font-size: 42.5px;
+    position: relative;
+    text-shadow: 0 0 0.1em currentColor;
+}
+
+.main_box h4 {
+    font-family: "Akira Expanded Outline";
+    color: aliceblue;
+    font-size: 31px;
+    position: relative;
+    bottom: 20px;
+    text-shadow: 0 0 0.3em currentColor;
+}
+
+.GOD p {
+    color: aliceblue;
+    writing-mode: vertical-rl !important;
+    font-size: 12px;
+    position: relative; /* Position relative to .main_box */
+    bottom: 33.5%;
+    left: 50.60%; /* Adjust as needed */
+}
+
+.main_box p2 {
+    font-family: "Gilroy-Bold";
+    font-size: 22px;
+    color: aliceblue;
+    position: relative;
+    bottom: 55%;
+    left: 27.6%;
+    text-shadow: 0 0 0.1em currentColor;
+}
+
+.info p {
+    font-family: "Gilroy-UltraLight";
+    color: aliceblue;
+    position: absolute;
+    left: 460px;
+    bottom: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.info p5 {
+    font-size: 10.5px;
+    text-shadow: 0 0 0.2em currentColor;
+    font-family: "Gilroy-Regular";
+    position: relative;
+    left: 167px;
+    bottom: 157px;
+}
+
+p {
+    position: relative;
+    text-align: center;
+    font-family: "Gilroy-UltraLight";
+    font-size: small;
+}
+
+.linkedin .btn-outline-primary:hover,
+.email .btn-outline-primary:hover,
+.git .btn-outline-primary:hover {
+    background-color: #050245;
+    border-color: #561CE3;
+}
+
+.linkedin .btn-outline-primary,
+.email .btn-outline-primary,
+.git .btn-outline-primary {
+    position: absolute;
+    /*display: flexbox;*/
+    margin: 10px;
+    background-color: #561CE3;
+    border-color: #050245;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.linkedin .btn-outline-primary {
+    position: absolute;
+    left: -15%;
+    bottom: 172px;
+}
+
+.email .btn-outline-primary {
+    position: absolute;
+    left: -15%;
+    bottom: 100px;
+}
+
+.git .btn-outline-primary {
+    position: absolute;
+    left: -15%;
+    bottom: 30px;
+}
+
+.linkedin .btn-outline-primary {
+    background-image: url(../img/klipartz.com.png);
+    background-size: 24.5px;
+}
+
+.email .btn-outline-primary {
+    background-image: url(../img/Gmail_Logo_White_512px.png);
+    background-size: 26.7px;
+}
+
+.git .btn-outline-primary {
+    background-image: url(../img/Kisspng-github-logo-076615336648817417.png);
+    background-size: 32px;
+}
+
+.btm_box {
+    position: relative;
+    background-size: 110px;
+    background-color: #050245;
+    width: 470px;
+    height: 215px;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.btm_box p {
+    position: relative;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 2.7cm;
+}
+
+.btm_box .qr img {
+    position: absolute;
+    left: 42%;
+    bottom: 55%;
+    height: 80px;
+    width: auto;
+}
+
+@font-face {
+    font-family: "Akira Expanded Outline";
+    src: url(../fonts/AkiraExpandedOutline.otf);
+}
+
+@font-face {
+    src: url(../fonts/AkiraExpandedDemo.otf);
+    font-family: "Akira Expanded";
+}
+
+@font-face {
+    font-family: "Gilroy-UltraLight";
+    src: url(../fonts/Gilroy-UltraLight.ttf);
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url(../fonts/Gilroy-Regular.ttf);
+}
