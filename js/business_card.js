@@ -15,7 +15,6 @@ function rotateElements(event) {
     const offsetY = ((y - middleY) / middleY) * 5;
 
     wholeblock.style.transform = `perspective(5000px) rotateX(${-offsetY}deg) rotateY(${offsetX}deg)`;
-
 }
 
 window.addEventListener('resize', function() {
