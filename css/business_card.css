@@ -27,9 +27,7 @@ body {
     width: 470px;
     height: 270px;
     border-radius: 50px;
-    margin: auto;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin: 25px auto;
 }
 
 .profile img {
@@ -80,7 +78,7 @@ body {
 .main_box h3 {
     font-family: "Akira-Expanded";
     color: aliceblue;
-    font-size: 42.5px;
+    font-size: 43px;
     position: relative;
     text-shadow: 0 0 0.1em currentColor;
 }
@@ -124,7 +122,7 @@ body {
 }
 
 .info p5 {
-    font-size: 10.5px;
+    font-size: 11px;
     text-shadow: 0 0 0.2em currentColor;
     font-family: "Gilroy-Regular";
     position: relative;
@@ -182,12 +180,12 @@ p {
 
 .linkedin .btn-outline-primary {
     background-image: url(../img/linkedin.com.png);
-    background-size: 24.5px;
+    background-size: 25px;
 }
 
 .email .btn-outline-primary {
     background-image: url(../img/Gmail_Logo_white.png);
-    background-size: 26.7px;
+    background-size: 27px;
 }
 
 .git .btn-outline-primary {
@@ -202,15 +200,14 @@ p {
     width: 470px;
     height: 215px;
     border-radius: 50px;
-    margin: auto;
-    margin-top: 25px;
+    margin: 25px auto auto;
 }
 
 .btm_box p {
     position: relative;
-    padding-left: 2cm;
-    padding-right: 2cm;
-    padding-top: 2.7cm;
+    padding-left: 1.5cm;
+    padding-right: 1.5cm;
+    padding-top: 2.8cm;
 }
 
 .btm_box .qr img {
