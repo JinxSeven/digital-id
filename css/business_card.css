@@ -182,17 +182,17 @@ p {
 }
 
 .linkedin .btn-outline-primary {
-    background-image: url(../img/klipartz.com.png);
+    background-image: url(../img/linkedin.com.png);
     background-size: 24.5px;
 }
 
 .email .btn-outline-primary {
-    background-image: url(../img/Gmail_Logo_White_512px.png);
+    background-image: url(../img/Gmail_Logo_white.png);
     background-size: 26.7px;
 }
 
 .git .btn-outline-primary {
-    background-image: url(../img/Kisspng-github-logo-076615336648817417.png);
+    background-image: url(../img/github-logo-076615.png);
     background-size: 32px;
 }
 
