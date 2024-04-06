@@ -21,7 +21,7 @@ body {
     position: relative;
     background-position-y: -5px;
     background-position-x: 21px;
-    background-image: url(../img/brand_logo.png);
+    background-image: url(../Img/brand_logo.png);
     background-size: 108px;
     background-color: #050245;
     width: 470px;
@@ -180,17 +180,17 @@ p {
 }
 
 .linkedin .btn-outline-primary {
-    background-image: url(../img/linkedin.com.png);
+    background-image: url(../Img/linkedin.com.png);
     background-size: 25px;
 }
 
 .email .btn-outline-primary {
-    background-image: url(../img/Gmail_Logo_white.png);
+    background-image: url(../Img/Gmail_Logo_white.png);
     background-size: 27px;
 }
 
 .git .btn-outline-primary {
-    background-image: url(../img/github-logo-0765.png);
+    background-image: url(../Img/github-logo-0765.png);
     background-size: 32px;
 }
 
@@ -221,25 +221,25 @@ p {
 
 @font-face {
     font-family: "Akira-Expanded-Outline";
-    src: url(../fonts/AkiraExpandedOutline.otf);
+    src: url(../Fonts/AkiraExpandedOutline.otf);
 }
 
 @font-face {
-    src: url(../fonts/AkiraExpandedDemo.otf);
+    src: url(../Fonts/AkiraExpandedDemo.otf);
     font-family: "Akira-Expanded";
 }
 
 @font-face {
     font-family: "Gilroy-UltraLight";
-    src: url(../fonts/Gilroy-UltraLight.ttf);
+    src: url(../Fonts/Gilroy-UltraLight.ttf);
 }
 
 @font-face {
     font-family: "Gilroy-Bold";
-    src: url(../fonts/Gilroy-Bold.ttf);
+    src: url(../Fonts/Gilroy-Bold.ttf);
 }
 
 @font-face {
     font-family: "Gilroy-Regular";
-    src: url(../fonts/Gilroy-Regular.ttf);
+    src: url(../Fonts/Gilroy-Regular.ttf);
 }
