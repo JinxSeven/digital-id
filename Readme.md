@@ -2,9 +2,11 @@
 
 👋 Welcome to my digital identity! This single-page HTML/CSS/JS site offers a glimpse into who I am.
 
-## Overview 🌐
+## Overview 🌐 & Preview 🖼️
 
 This minimalist project is a digital ID card, that provides just enough information about me.
+
+![image](https://github.com/JinxSeven/Digital_Id/assets/164835921/2c9fc070-229c-43dc-bd11-f18119bee117)
 
 ## Features 🚀
 
