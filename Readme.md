@@ -16,4 +16,4 @@ This minimalist project is a digital ID card, that provides just enough informat
 
 ## Purpose 🧪
 
-I created this project to test and improve my HTML and CSS skills. It's a hands-on experiment to implement what I've learned.
+I created this project to test and improve my HTML, CSS and JS skills. It's a hands-on experiment to implement what I've learned.
