@@ -6,8 +6,7 @@
 
 This minimalist project is a digital ID card, that provides just enough information about me.
 
-![image](https://github.com/JinxSeven/Digital_Id/assets/164835921/6eeb0c71-b175-49e1-9416-8b43cc03b3a5)
-
+![xJinx_2](https://github.com/JinxSeven/Digital_Id/assets/164835921/a5bc5ed2-b058-4298-9618-c81062a3d87f)
 
 ## Features 🚀
 
