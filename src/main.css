@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    /* overflow-x: hidden; */
 }
 
 .top_box {
@@ -18,9 +17,6 @@ body {
 
 .profile img {
     width: 200px;
-    /* position: relative; */
-    /* left: 15px;
-    top: 15px; */
 }
 
 .profile {
@@ -32,10 +28,8 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    /* position: relative; */
     left: 25%;
     top: -42.5%;
-    /* transform: translateX(-50%); */
 }
 
 .main_box {
@@ -66,7 +60,6 @@ body {
     position: absolute;
     text-align: center;
     top: 45%;
-    /* transform: translate(-50%, -20%); */
 }
 
 .head_name #first_name {
@@ -94,30 +87,21 @@ body {
     color: aliceblue;
     margin: 0;
     line-height: 1.4;
-    /* position: relative;
-    bottom: 55%;
-    left: 27.6%; */
-    /* text-shadow: 0 0 0.1em currentColor; */
 }
 
 .head_name #skills {
     font-size: 11px;
     text-shadow: 0 0 0.2em currentColor;
     font-family: "Gilroy-Regular", system-ui;
-    /* position: relative; */
-    /* left: 162px;
-    bottom: 157px; */
-    /* margin: 0; */
-    /* line-height: 1.3; */
 }
 
 .moto p {
     color: aliceblue;
     writing-mode: vertical-rl !important;
     font-size: 12px;
-    position: relative; /* Position relative to .main_box */
+    position: relative;
     bottom: 33.5%;
-    left: 50.60%; /* Adjust as needed */
+    left: 50.60%;
 }
 
 .info p {
@@ -141,7 +125,6 @@ body {
 .email .btn-outline-primary,
 .git .btn-outline-primary {
     position: absolute;
-    /*display: flexbox;*/
     margin: 10px;
     background-color: #561CE3;
     border-color: #050245;
@@ -155,19 +138,19 @@ body {
 
 .linkedin .btn-outline-primary {
     position: absolute;
-    left: -15%;
+    left: -14.5%;
     bottom: 172px;
 }
 
 .email .btn-outline-primary {
     position: absolute;
-    left: -15%;
+    left: -14.5%;
     bottom: 100px;
 }
 
 .git .btn-outline-primary {
     position: absolute;
-    left: -15%;
+    left: -14.5%;
     bottom: 30px;
 }
 
