@@ -1,25 +1,10 @@
 body {
     background-color: black;
-    overflow-x: hidden;
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    html,
-    body {
-        overflow: hidden;
-        height: 100%;
-    }
-
-    body {
-        zoom: 60%;
-        padding-left: 25px;
-        padding-top: 75px;
-    }
 }
 
 .top_box {
     position: relative;
-    background-position-y: -5px;
+    background-position-y: -7px;
     background-position-x: 21px;
     background-image: url(../assets/images/brand_logo.png);
     background-size: 108px;
@@ -32,21 +17,19 @@ body {
 
 .profile img {
     width: 200px;
-    position: relative;
-    left: 15px;
-    top: 15px;
 }
 
 .profile {
     width: 230px;
     height: 230px;
-    margin-left: 0;
     background-color: black;    
-    border-radius: 150px;
-    position: relative;
-    left: 50%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 25%;
     top: -42.5%;
-    transform: translateX(-50%);
 }
 
 .main_box {
@@ -55,7 +38,10 @@ body {
     width: 470px;
     height: 270px;
     border-radius: 50px;
-    position: relative; /* Ensure proper positioning */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .whole_block {
@@ -71,45 +57,51 @@ body {
 }
 
 .head_name {
-    position: relative;
-    bottom: 42%;
-    left: 25%;
+    position: absolute;
+    text-align: center;
+    top: 45%;
 }
 
-.main_box h3 {
+.head_name #first_name {
     font-family: "Akira-Expanded", system-ui;
     color: aliceblue;
     font-size: 43px;
-    position: relative;
     text-shadow: 0 0 0.1em currentColor;
+    margin: 0;
+    line-height: 0.9;
 }
 
-.main_box h4 {
+.head_name #last_name {
     font-family: "Akira-Expanded-Outline", system-ui;
     color: aliceblue;
     font-size: 31px;
-    position: relative;
     bottom: 20px;
     text-shadow: 0 0 0.3em currentColor;
+    margin: 0;
+    line-height: 0.9;
 }
 
-.GOD p {
-    color: aliceblue;
-    writing-mode: vertical-rl !important;
-    font-size: 12px;
-    position: relative; /* Position relative to .main_box */
-    bottom: 33.5%;
-    left: 50.60%; /* Adjust as needed */
-}
-
-.main_box p2 {
+.head_name #designation {
     font-family: "Gilroy-Bold", system-ui;
     font-size: 22px;
     color: aliceblue;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.head_name #skills {
+    font-size: 11px;
+    text-shadow: 0 0 0.2em currentColor;
+    font-family: "Gilroy-Regular", system-ui;
+}
+
+.moto p {
+    color: aliceblue;
+    writing-mode: vertical-rl !important;
+    font-size: 12px;
     position: relative;
-    bottom: 55%;
-    left: 27.6%;
-    text-shadow: 0 0 0.1em currentColor;
+    bottom: 33.5%;
+    left: 50.60%;
 }
 
 .info p {
@@ -120,22 +112,6 @@ body {
     bottom: 15px;
     font-size: 12px;
     font-weight: 500;
-}
-
-.info p3 {
-    font-size: 11px;
-    text-shadow: 0 0 0.2em currentColor;
-    font-family: "Gilroy-Regular", system-ui;
-    position: relative;
-    left: 162px;
-    bottom: 157px;
-}
-
-p {
-    position: relative;
-    text-align: center;
-    font-family: "Gilroy-UltraLight", system-ui;
-    font-size: small;
 }
 
 .linkedin .btn-outline-primary:hover,
@@ -149,7 +125,6 @@ p {
 .email .btn-outline-primary,
 .git .btn-outline-primary {
     position: absolute;
-    /*display: flexbox;*/
     margin: 10px;
     background-color: #561CE3;
     border-color: #050245;
@@ -163,19 +138,19 @@ p {
 
 .linkedin .btn-outline-primary {
     position: absolute;
-    left: -15%;
+    left: -14.5%;
     bottom: 172px;
 }
 
 .email .btn-outline-primary {
     position: absolute;
-    left: -15%;
+    left: -14.5%;
     bottom: 100px;
 }
 
 .git .btn-outline-primary {
     position: absolute;
-    left: -15%;
+    left: -14.5%;
     bottom: 30px;
 }
 
@@ -202,19 +177,21 @@ p {
     height: 215px;
     border-radius: 50px;
     margin: 25px auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px;
 }
 
-.btm_box p {
-    position: relative;
-    padding-left: 1.5cm;
-    padding-right: 1.5cm;
-    padding-top: 2.8cm;
+.btm_box #about_me {
+    font-size: small;
+    font-family: "Gilroy-UltraLight", system-ui;
+    text-align: center;
 }
 
-.btm_box .qr img {
-    position: absolute;
-    left: 42%;
-    bottom: 55%;
+.btm_box #qr img {
     height: 80px;
     width: auto;
 }
@@ -242,4 +219,18 @@ p {
 @font-face {
     font-family: "Gilroy-Regular";
     src: url(../assets/fonts/Gilroy-Regular.ttf);
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    html,
+    body {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    body {
+        zoom: 60%;
+        padding-left: 25px;
+        padding-top: 75px;
+    }
 }
