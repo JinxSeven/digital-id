@@ -177,22 +177,21 @@ body {
     height: 215px;
     border-radius: 50px;
     margin: 25px auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px;
 }
 
-.btm_box p {
+.btm_box #about_me {
     font-size: small;
     font-family: "Gilroy-UltraLight", system-ui;
     text-align: center;
-    position: relative;
-    padding-left: 1.5cm;
-    padding-right: 1.5cm;
-    padding-top: 2.8cm;
 }
 
-.btm_box .qr img {
-    position: absolute;
-    left: 42%;
-    bottom: 55%;
+.btm_box #qr img {
     height: 80px;
     width: auto;
 }
